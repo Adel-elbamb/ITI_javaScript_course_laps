@@ -1,0 +1,38 @@
+.continar {
+    padding: 20px;
+    margin: 200px 50px 0 50px;
+    display: block;
+}
+
+.slides {
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.slide {
+    width: 40%;
+    height: 400Px;
+    position: absolute;
+}
+
+.btns {
+    display: flex;
+    justify-content: space-around;
+    width: 500px;
+ position: relative;
+ left: 400px;
+ top: 250px;
+}
+
+button {
+  text-align: center;
+    padding: 15px;
+    background-color: cadetblue;
+    color: #fff;
+    width: 70px;
+    /* padding: 20px;
+     */
+  border: 1px white solid ;
+
+}

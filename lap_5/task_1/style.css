@@ -1,0 +1,72 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+  }
+  
+  .container {
+    width: 50%;
+    margin: auto;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  .form {
+    margin-bottom: 20px;
+  }
+  
+  .form input {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .form .error {
+    color: red;
+    font-size: 12px;
+    margin: -8px 0 10px;
+  }
+  
+  button {
+    background-color: #28a745;
+    width: calc(100% - 20px);
+
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #218838;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  table th, table td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  table th {
+    background-color: #f4f4f4;
+  }
+  
+  a {
+    color: red;
+    cursor: pointer;
+  }
+
+  .deleteStudent {
+    color: red;
+  }
+  
